@@ -1,0 +1,184 @@
+<html lang="zh-CN">
+  <head>
+    <meta charset="UTF-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1"
+    />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <meta name="referrer" content="no-referrer" />
+    <title>每日签到</title>
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+
+  <body>
+    <div class="container">
+      <h3>未签到</h3>
+      <ul class="link-list link-icon-list" id="unsign-list"></ul>
+      <h3>已签到</h3>
+      <ul class="link-list link-icon-list" id="signed-list"></ul>
+    </div>
+    <script src="https://static.oonnnoo.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script>
+      var allApp = [
+        {
+          id: 1001,
+          name: "支付宝",
+          icon: "asset/alipay.png",
+          url: "alipay://",
+          pkgs: {
+            ios: "https://apps.apple.com/cn/app/id333206289"
+          },
+          status: false
+        },
+        {
+          id: 1002,
+          name: "京东",
+          icon: "asset/jd.png",
+          url: "openApp.jdMobile://",
+          status: false
+        },
+        {
+          id: 1003,
+          name: "京东金融",
+          icon: "asset/jdjr.png",
+          url: "jdMobile://",
+          status: false
+        },
+        {
+          id: 1004,
+          name: "招商银行",
+          icon: "asset/cmbmobilebank.png",
+          url: "cmbmobilebank://",
+          status: false,
+          pkgs: {
+            ios: "https://apps.apple.com/cn/app/id392899425"
+          }
+        },
+        {
+          id: 1005,
+          name: "掌上生活",
+          icon: "asset/cmblife.png",
+          url: "cmblife://",
+          pkgs: {
+            ios: "https://apps.apple.com/cn/app/id398453262"
+          },
+          status: false
+        },
+        {
+          id: 1006,
+          name: "云闪付",
+          icon: "asset/uppaywallet.png",
+          url: "uppaywallet://",
+          pkgs: {
+            ios: "https://apps.apple.com/cn/app/id398453262"
+          }
+        },
+        {
+          id: 1007,
+          name: "淘宝",
+          icon: "asset/taobao.png",
+          url: "taobao://",
+          pkgs: {
+            ios: "https://apps.apple.com/cn/app/id387682726"
+          }
+        },
+        {
+          id: 1008,
+          name: "微博",
+          icon: "asset/weibo.png",
+          url: "sinaweibo://"
+        },
+        {
+          id: 1009,
+          name: "百度网盘",
+          icon: "asset/baiduyun.png",
+          url: "baiduyun://"
+        },
+        {
+          id: 1010,
+          name: "多看阅读",
+          icon: "asset/duokan.png",
+          url: "duokan-reader://"
+        },
+
+        {
+          id: 1011,
+          name: "网易云音乐",
+          icon: "asset/neteasecloudmusic.png",
+          url: "orpheuswidget://"
+        },
+        {
+          id: 1012,
+          name: "手机营业厅",
+          icon: "asset/com.sinovatech.unicom.ui.png",
+          url: "chinaunicom://"
+        },
+        {
+          id: 1013,
+          name: "马蜂窝旅游",
+          icon: "asset/com.mfw.roadbook.png",
+          url: "chinaunicom://"
+        },
+        {
+          id: 1014,
+          name: "买单吧",
+          icon: "asset/maidanba.png",
+          url: "mdb://"
+        }
+      ];
+
+      function showList(arr, target) {
+        var html = "";
+        for (let i = 0; i < arr.length; i++) {
+          html += `<li>
+          <a
+            class="link"
+            href="${arr[i].url}"
+            referrerpolicy="no-referrer"
+            data-id="${arr[i].id}"
+          >
+            <img class="icon" src="${arr[i].icon}" alt="" />
+            <span class="link-text">
+              ${arr[i].name}
+            </span>
+          </a>
+        </li>`;
+        }
+        target.innerHTML = html;
+      }
+      // 未签到列表
+      var appList = localStorage.appList
+        ? JSON.parse(localStorage.appList)
+        : allApp;
+      function init() {
+        showList(
+          appList.filter(e => {
+            return !e.status;
+          }),
+          document.querySelector("#unsign-list")
+        );
+        // 已签到列表
+        showList(
+          appList.filter(e => {
+            return e.status;
+          }),
+          document.querySelector("#signed-list")
+        );
+        localStorage.setItem("appList", JSON.stringify(appList));
+      }
+      init();
+
+      $("#unsign-list").on("click", "li", e => {
+        var id = $(e.target)
+          .parentsUntil("li")
+          .attr("data-id");
+        var index = appList.findIndex(e => {
+          return e.id == id;
+        });
+        appList[index].status = true;
+        init();
+      });
+    </script>
+  </body>
+</html>
