@@ -28,7 +28,6 @@ body {
   display: flex;
   flex: auto;
   flex-direction: column;
-  flex: auto;
 }
 .link .icon {
   width: 64px;
