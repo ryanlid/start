@@ -1,0 +1,25 @@
+{
+  "name": "start",
+  "description": "",
+  "version": "1.0.0",
+  "main": "index.js",
+  "devDependencies": {
+    "gulp": "^4.0.2",
+    "gulp-clean": "^0.4.0",
+    "gulp-file-include": "^2.1.0"
+
+  },
+  "scripts": {
+    "build": "gulp"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/ryanlid/start.git"
+  },
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ryanlid/start/issues"
+  },
+  "homepage": "https://github.com/ryanlid/start#readme"
+}
