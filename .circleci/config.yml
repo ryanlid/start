@@ -11,6 +11,10 @@ jobs:
           name: Update System
           command: |
             sudo apt-get update && sudo apt-get install rsync
+      - run:
+          name: Build
+          command: |
+            yarn && yarn build
       - deploy:
           name: Deploy via ssh
           command: |
@@ -20,7 +24,7 @@ jobs:
             pwd
             ls
             if [ ${CIRCLE_BRANCH} = "master" ];then
-                rsync -az -v --delete -e ssh /home/circleci/project/* $SSH_USER@$SSH_HOST:/var/www/start/
+                rsync -az -v --delete -e ssh /home/circleci/project/dist/* $SSH_USER@$SSH_HOST:/var/www/start/
             else
                 echo "Not master branch"
             fi
