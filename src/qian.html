@@ -1,14 +1,6 @@
 <html lang="zh-CN">
-  <head>
-    <meta charset="UTF-8" />
-    <meta
-      name="viewport"
-      content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1"
-    />
-    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
-    <meta name="referrer" content="no-referrer" />
-    <title>每日签到</title>
-    <link rel="stylesheet" href="./style.css" />
+  @@include("./components/head.html",{ "title": "每日签到" })
+  <body>
     <style>
       .abandon-tips {
         background: yellow;
@@ -20,10 +12,7 @@
         color: red;
       }
     </style>
-  </head>
-
-  <body>
-    @@include('./components/header.html')
+    @@include("./components/header.html")
     <div class="abandon-tips">
       请移步查看新版本 <a href="https://qian.lidong.me/">每日签到 </a>
       <a href="https://qian.lidong.me/">https://qian.lidong.me/ </a>
