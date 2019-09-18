@@ -80,21 +80,6 @@
         "url": "https://res.lidong.me/",
         "icon": "./asset/dong.png",
         "text": "res"
-      },
-      {
-        "url": "https://github.com/",
-        "icon": "./asset/github.png",
-        "text": "Github"
-      },
-      {
-        "url": "https://webdev.lidong.me/",
-        "icon": "./asset/baidu.png",
-        "text": "百度"
-      },
-      {
-        "url": "https://github.com/",
-        "icon": "./asset/github.png",
-        "text": "Github"
       }
     ]
   }
