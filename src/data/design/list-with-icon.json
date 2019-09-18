@@ -1,0 +1,26 @@
+[
+  {
+    "list": [
+      {
+        "url": "https://dribbble.com/",
+        "icon": "./asset/dribbble.png",
+        "text": "Dribbble"
+      },
+      {
+        "url": "https://huaban.com/",
+        "icon": "./asset/huaban.png",
+        "text": "花瓣网"
+      },
+      {
+        "url": "https://www.zcool.com.cn",
+        "icon": "./asset/zcool.png",
+        "text": "站酷"
+      },
+      {
+        "url": "https://www.behance.net",
+        "icon": "./asset/behance.png",
+        "text": "Behance"
+      }
+    ]
+  }
+]

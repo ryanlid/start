@@ -1,0 +1,101 @@
+[
+  {
+    "list": [
+      {
+        "url": "https://lidong.me/",
+        "icon": "./asset/dong.png",
+        "text": "个人网站"
+      },
+      {
+        "url": "https://www.google.com/",
+        "icon": "./asset/dsm.png",
+        "text": "console"
+      },
+      {
+        "url": "https://console.lidong.me/audio/",
+        "icon": "./asset/audio.png",
+        "text": "audio"
+      },
+      {
+        "url": "https://console.lidong.me/download/",
+        "icon": "./asset/download.png",
+        "text": "download"
+      },
+      {
+        "url": "https://console.lidong.me/files/",
+        "icon": "./asset/files.png",
+        "text": "files"
+      },
+      {
+        "url": "https://console.lidong.me/note/",
+        "icon": "./asset/note.png",
+        "text": "note"
+      },
+      {
+        "url": "https://console.lidong.me/drive/",
+        "icon": "./asset/drive.png",
+        "text ": "drive"
+      },
+      {
+        "url": "https://console.lidong.me/video/",
+        "icon": "./asset/video.png",
+        "text": "video"
+      },
+      {
+        "url": "https://console.lidong.me/vmm/",
+        "icon": "./asset/vmm.png",
+        "text": "vmm"
+      },
+      {
+        "url": "https://console.lidong.me/moments/",
+        "icon": "./asset/moments.png",
+        "text": "moments"
+      },
+      {
+        "url": "https://console.lidong.me/activebackup/",
+        "icon": "./asset/activebackup.png",
+        "text": "activebackup"
+      },
+      {
+        "url": "https://sync.lidong.me/",
+        "icon": "./asset/sync.png",
+        "text": "sync"
+      },
+      {
+        "url": "https://webdev.lidong.me/",
+        "icon": "./asset/dsm.png",
+        "text": "webdev"
+      },
+      {
+        "url": "https://git.lidong.me/",
+        "icon": "./asset/gitea.png",
+        "text": "git"
+      },
+      {
+        "url": "https://minio.lidong.me/",
+        "icon": "./asset/minio.png",
+        "text": "minio"
+      },
+      {
+        "url": "https://res.lidong.me/",
+        "icon": "./asset/dong.png",
+        "text": "res"
+      },
+      {
+        "url": "https://github.com/",
+        "icon": "./asset/github.png",
+        "text": "Github"
+      },
+      {
+        "url": "https://webdev.lidong.me/",
+        "icon": "./asset/baidu.png",
+        "text": "百度"
+      },
+      {
+        "url": "https://github.com/",
+        "icon": "./asset/github.png",
+        "text": "Github"
+      }
+    ]
+  }
+]

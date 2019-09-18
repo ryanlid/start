@@ -1,0 +1,17 @@
+<ul class="link-list link-icon-list">
+  @@for (var i = 0; i < list.length; i++) {
+  <li>
+    <a
+      class="link"
+      href="`+list[i].url+`"
+      referrerpolicy="no-referrer"
+      target="_blank"
+    >
+      <img class="icon" src="`+list[i].icon+`" alt="`+list[i].text+`" />
+      <span class="link-text">
+        `+list[i].text+`
+      </span>
+    </a>
+  </li>
+  }
+</ul>

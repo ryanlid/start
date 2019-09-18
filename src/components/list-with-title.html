@@ -1,0 +1,17 @@
+<h3>@@name</h3>
+<ul class="link-list">
+  @@for (var i = 0; i < list.length; i++) {
+  <li>
+    <a
+      class="link"
+      href="`+list[i].url+`"
+      referrerpolicy="no-referrer"
+      rel="noopener"
+      target="_blank"
+      ><span class="link-text">
+        `+list[i].text+`
+      </span>
+    </a>
+  </li>
+  }
+</ul>

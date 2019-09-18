@@ -1,0 +1,65 @@
+[
+  {
+    "name": "PT",
+    "list": [
+      {
+        "url": "https://pt.btschool.club/",
+        "text": "BTSCHOOL"
+      },
+      {
+        "url": "https://www.pthome.net/",
+        "text": "PTHOME"
+      }
+    ]
+  },
+  {
+    "name": "Apple",
+    "list": [
+      {
+        "url": "https://itunesconnect.apple.com",
+        "text": "iTunes Connect"
+      },
+      {
+        "url": "https://developer.apple.com",
+        "text": "Apple Developer"
+      },
+      {
+        "url": "https://www.icloud.com/",
+        "text": "iCloud"
+      },
+      {
+        "url": "https://developer.apple.com",
+        "text": "Apple Developer"
+      },
+      {
+        "url": "http://www.apple.com/cn/support/systemstatus/",
+        "text": "Apple 系统状态"
+      },
+      {
+        "url": "https://developer.apple.com",
+        "text": "Apple 开发者系统状态"
+      }
+    ]
+  },
+  {
+    "name": "Google",
+    "list": [
+      {
+        "url": "https://pt.btschool.club/",
+        "text": "Google"
+      },
+      {
+        "url": "https://developer.google.cn",
+        "text": "Google Developers"
+      },
+      {
+        "url": "https://adssettings.google.com/authenticated?hl=zh-CN",
+        "text": " Google 个性化广告设置"
+      },
+      {
+        "url": "https://www.pthome.net/",
+        "text": "Google 透明度报告"
+      }
+    ]
+  }
+]
