@@ -40,6 +40,11 @@
         "url": "https://translate.google.cn/",
         "icon": "./asset/translate.png",
         "text": "翻译"
+      },
+      {
+        "url":"https://zh.wikipedia.org/",
+        "icon": "./asset/wikipedia.png",
+        "text": "wikipedia"
       }
     ]
   }
