@@ -3,6 +3,10 @@
     "name": "Material Design",
     "list": [
       {
+        "url": "https://material.io/",
+        "text": "Material Design"
+      },
+      {
         "url": "https://material.io/tools/icons/",
         "text": "Icons"
       },
@@ -37,7 +41,7 @@
     "name": "Icon",
     "list": [
       {
-        "url": "https://appicon.co",
+        "url": "https://appicon.co/",
         "text": "appicon"
       },
       {
@@ -45,8 +49,9 @@
         "text": "canva"
       },
       {
-        "url": "https://flatuicolors.com",
+        "url": "https://flatuicolors.com/",
         "text": "flatuicolors"
       }
-    ]}
+    ]
+  }
 ]
