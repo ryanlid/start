@@ -1,17 +1,20 @@
 <ul class="link-list link-icon-list">
   @@for (var i = 0; i < list.length; i++) {
   <li>
-    <a
-      class="link"
-      href="`+list[i].url+`"
-      referrerpolicy="no-referrer"
-      target="_blank"
-    >
-      <img class="icon" src="`+list[i].icon+`" alt="`+list[i].text+`" />
-      <span class="link-text">
-        `+list[i].text+`
-      </span>
-    </a>
+    <div class="card sticky-action">
+      <div class="card-image">
+        <img class="activator" src="`+list[i].icon+`" alt="`+list[i].text+`" />
+      </div>
+      <div class="card-reveal">
+        <span class="card-title grey-text text-darken-4"
+          ><i class="material-icons right">close</i></span
+        >
+        <p> `+list[i].desc +`</p>
+      </div>
+      <div class="card-action">
+        <a href="`+list[i].url+`" target="_black">`+list[i].text+`</a>
+      </div>
+    </div>
   </li>
   }
 </ul>

@@ -5,7 +5,7 @@ body {
   background: #ffffff;
   -webkit-font-smoothing: antialiased;
 }
-@media (prefers-color-scheme: dark) {
+/* @media (prefers-color-scheme: dark) {
   body {
     background-color: black;
     color: white;
@@ -16,7 +16,7 @@ body {
     background-color: white;
     color: black;
   }
-}
+} */
 .container {
   padding: 20px;
 }
@@ -31,16 +31,7 @@ body {
 .link-list li {
   line-height: 1.5;
   padding: 8px 6px;
-}
-.link-list li a {
-  padding: 2px 4px;
-  color: #3269a0;
-  text-decoration: none;
-}
-
-.link-list li a:hover {
-  transform: scale(1.1);
-  box-shadow: 0 2px 2px 1px rgba(124, 124, 124, 0.5);
+  width: 200px;
 }
 
 .link-icon-list {
@@ -62,4 +53,9 @@ body {
   text-overflow: ellipsis;
   white-space: nowrap;
   text-align: center;
+}
+
+
+.card .card-reveal .card-title{
+  position: relative;
 }

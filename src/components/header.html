@@ -1,37 +1,28 @@
 <header>
-  <ul class="link-list">
-    <li>
-      <a class="link" href="/" referrerpolicy="no-referrer">
-        <span class="link-text">
-          首页
-        </span>
-      </a>
+  <div class="container">
+    <a
+      href="#"
+      data-target="nav-mobile"
+      class="top-nav sidenav-trigger waves-effect waves-light circle hide-on-large-only"
+      ><i class="material-icons">menu</i></a
+    >
+  </div>
+  <ul id="nav-mobile" class="sidenav sidenav-fixed">
+    <li class="bold">
+      <a href="/" class="waves-effect waves-teal">首页</a>
     </li>
-    <li>
-      <a class="link" href="qian.html" referrerpolicy="no-referrer">
-        <span class="link-text">
-          每日签到
-        </span>
-      </a>
-    </li>
-    <li>
-      <a class="link" href="lan.html" referrerpolicy="no-referrer">
-        <span class="link-text">
-          内部链接
-        </span>
-      </a>
-    </li>
-    <li>
-      <a
-        class="link"
-        href="./design.html"
-        referrerpolicy="no-referrer"
-        rel="noopener"
-      >
-        <span class="link-text">
-          设计
-        </span>
-      </a>
+    <li class="bold">
+        <a href="design.html" class="waves-effect waves-teal">设计</a>
+      </li>
+    <li class="bold">
+      <a href="lan.html" class="waves-effect waves-teal">内部链接</a>
     </li>
   </ul>
 </header>
+
+<script>
+  document.addEventListener("DOMContentLoaded", function() {
+    var elems = document.querySelectorAll(".sidenav");
+    var instances = M.Sidenav.init(elems);
+  });
+</script>
