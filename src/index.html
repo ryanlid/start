@@ -2,11 +2,13 @@
   @@include("./components/head.html",{ "title": "首页" })
   <body>
     @@include('./components/header.html')
-    <div class="container">
-      @@loop("components/list-with-icon.html",
-      "/data/index/list-with-icon.json")
-      @@loop("components/list-with-title.html",
-      "/data/index/list-with-title.json")
-    </div>
+    <main>
+      <div class="container">
+        @@loop("components/list-with-icon.html",
+        "/data/index/list-with-icon.json")
+        @@loop("components/list-with-title.html",
+        "/data/index/list-with-title.json")
+      </div>
+    </main>
   </body>
 </html>

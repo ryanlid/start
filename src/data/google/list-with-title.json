@@ -1,0 +1,23 @@
+[
+  {
+    "name": "Google",
+    "list": [
+      {
+        "url": "https://www.google.com",
+        "text": "Google"
+      },
+      {
+        "url": "https://developer.google.cn",
+        "text": "Google Developers"
+      },
+      {
+        "url": "https://adssettings.google.com/authenticated?hl=zh-CN",
+        "text": " Google 个性化广告设置"
+      },
+      {
+        "url": "https://transparencyreport.google.com/?hl=zh_CN",
+        "text": "Google 透明度报告"
+      }
+    ]
+  }
+]

@@ -1,49 +1,50 @@
 [
   {
+    "name":"首页",
     "list": [
       {
         "url": "https://lidong.me/",
-        "icon": "./asset/dong.png",
+        "icon": "https://images.oonnnoo.com/favicons/lidong.me.png",
         "text": "个人网站"
       },
       {
         "url": "https://www.google.com/",
-        "icon": "./asset/google.png",
+        "icon": "https://images.oonnnoo.com/favicons/www.google.com.png",
         "text": "Google"
       },
       {
         "url": "https://www.baidu.com/",
-        "icon": "./asset/baidu.png",
+        "icon": "https://images.oonnnoo.com/favicons/www.baidu.com.png",
         "text": "百度"
       },
       {
         "url": "https://github.com/",
-        "icon": "./asset/github.png",
+        "icon": "https://images.oonnnoo.com/favicons/github.com.png",
         "text": "Github"
       },
       {
         "url": "https://www.stackoverflow.com/",
-        "icon": "./asset/stackoverflow.png",
+        "icon": "https://images.oonnnoo.com/favicons/www.stackoverflow.com.png",
         "text": "Stack"
       },
       {
         "url": "https://inoreader.com/",
-        "icon": "./asset/inoreader.png",
+        "icon": "https://images.oonnnoo.com/favicons/inoreader.com.png",
         "text": "Inoreader"
       },
       {
         "url": "https://www.youtube.com/",
-        "icon": "./asset/youtube.png",
-        "text": "Youtube"
+        "icon": "https://images.oonnnoo.com/favicons/www.youtube.com.png",
+        "text": "youtube"
       },
       {
         "url": "https://translate.google.cn/",
-        "icon": "./asset/translate.png",
+        "icon": "https://images.oonnnoo.com/favicons/translate.google.cn.png",
         "text": "翻译"
       },
       {
         "url":"https://zh.wikipedia.org/",
-        "icon": "./asset/wikipedia.png",
+        "icon": "https://images.oonnnoo.com/favicons/zh.wikipedia.org.png",
         "text": "Wikipedia"
       }
     ]

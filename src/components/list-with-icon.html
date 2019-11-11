@@ -1,6 +1,7 @@
-<ul class="link-list link-icon-list">
+<h3>@@name</h3>
+<div class="row">
   @@for (var i = 0; i < list.length; i++) {
-  <li>
+  <div class="col s6 m4 xl3">
     <div class="card sticky-action">
       <div class="card-image">
         <img class="activator" src="`+list[i].icon+`" alt="`+list[i].text+`" />
@@ -9,12 +10,12 @@
         <span class="card-title grey-text text-darken-4"
           ><i class="material-icons right">close</i></span
         >
-        <p> `+list[i].desc +`</p>
+        <p>`+list[i].desc +`</p>
       </div>
       <div class="card-action">
         <a href="`+list[i].url+`" target="_black">`+list[i].text+`</a>
       </div>
     </div>
-  </li>
+  </div>
   }
-</ul>
+</div>

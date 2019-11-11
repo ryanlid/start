@@ -17,9 +17,13 @@ body {
     color: black;
   }
 } */
-.container {
-  padding: 20px;
+
+@media only screen and (min-width: 992px){
+  header, main, footer {
+    padding-left: 300px;
+  }
 }
+
 .link-list {
   list-style: none;
   display: flex;
@@ -31,13 +35,14 @@ body {
 .link-list li {
   line-height: 1.5;
   padding: 8px 6px;
-  width: 200px;
 }
 
 .link-icon-list {
-  justify-content: space-between;
+  justify-content: left;
 }
-
+.link-icon-list li {
+  width: 200px;
+}
 .link {
   display: flex;
   flex: auto;
@@ -55,7 +60,6 @@ body {
   text-align: center;
 }
 
-
-.card .card-reveal .card-title{
+.card .card-reveal .card-title {
   position: relative;
 }

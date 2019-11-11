@@ -1,0 +1,39 @@
+[
+  {
+    "name": "Apple",
+    "list": [
+      {
+        "url": "https://itunesconnect.apple.com",
+        "text": "iTunes Connect"
+      },
+      {
+        "url": "https://developer.apple.com",
+        "text": "Apple Developer"
+      },
+      {
+        "url": "https://www.icloud.com/",
+        "text": "iCloud"
+      },
+      {
+        "url": "https://developer.apple.com",
+        "text": "Apple Developer"
+      },
+      {
+        "url": "http://www.apple.com/cn/support/systemstatus/",
+        "text": "Apple 系统状态"
+      },
+      {
+        "url": "https://developer.apple.com",
+        "text": "Apple 开发者系统状态"
+      },
+      {
+        "url": "https://checkcoverage.apple.com/cn/zh/",
+        "text": "根据产品序列号查看状态"
+      },
+      {
+        "url": "https://beta.apple.com/",
+        "text": "Apple 软件 Beta 测试"
+      }
+    ]
+  }
+]

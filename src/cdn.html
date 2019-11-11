@@ -1,11 +1,11 @@
 <html lang="zh-CN">
-  @@include("./components/head.html",{ "title": "内部链接" })
+  @@include("components/head.html",{ "title": "前端静态资源 CDN" })
   <body>
-    @@include('./components/header.html')
+    @@include('components/header.html')
     <main>
       <div class="container">
         @@loop("components/list-with-icon.html",
-        "/data/lan/list-with-icon.json")
+        "/data/cdn/list-with-icon.json")
       </div>
     </main>
   </body>

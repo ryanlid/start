@@ -1,43 +1,5 @@
 [
   {
-    "name": "Material Design",
-    "list": [
-      {
-        "url": "https://material.io/",
-        "text": "Material Design"
-      },
-      {
-        "url": "https://material.io/tools/icons/",
-        "text": "Icons"
-      },
-      {
-        "url": "https://materialdesignicons.com/",
-        "text": "Material Design Icons"
-      }
-    ]
-  },
-  {
-    "name": "图库",
-    "list": [
-      {
-        "url": "https://unsplash.com/",
-        "text": "Unsplash"
-      },
-      {
-        "url": "https://pixabay.com/",
-        "text": "Pixabay"
-      },
-      {
-        "url": "https://www.pinterest.com/",
-        "text": "Pinterest"
-      },
-      {
-        "url": "https://cn.bing.com/images/trending",
-        "text": "Bing 图库"
-      }
-    ]
-  },
-  {
     "name": "Icon",
     "list": [
       {

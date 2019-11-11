@@ -1,13 +1,11 @@
 <html lang="zh-CN">
-  @@include("./components/head.html",{ "title": "设计" })
+  @@include("./components/head.html",{ "title": "Apple" })
   <body>
     @@include('./components/header.html')
     <main>
       <div class="container">
-        @@loop("components/list-with-icon.html",
-        "/data/design/list-with-icon.json")
         @@loop("components/list-with-title.html",
-        "/data/design/list-with-title.json")
+        "/data/apple/list-with-title.json")
       </div>
     </main>
   </body>
