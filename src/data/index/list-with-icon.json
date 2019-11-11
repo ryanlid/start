@@ -4,47 +4,47 @@
     "list": [
       {
         "url": "https://lidong.me/",
-        "icon": "https://images.oonnnoo.com/favicons/lidong.me.png",
+        "icon": "https://images.oonnnoo.com/favicons/lidong.me",
         "text": "个人网站"
       },
       {
         "url": "https://www.google.com/",
-        "icon": "https://images.oonnnoo.com/favicons/www.google.com.png",
+        "icon": "https://images.oonnnoo.com/favicons/www.google.com",
         "text": "Google"
       },
       {
         "url": "https://www.baidu.com/",
-        "icon": "https://images.oonnnoo.com/favicons/www.baidu.com.png",
+        "icon": "https://images.oonnnoo.com/favicons/www.baidu.com",
         "text": "百度"
       },
       {
         "url": "https://github.com/",
-        "icon": "https://images.oonnnoo.com/favicons/github.com.png",
+        "icon": "https://images.oonnnoo.com/favicons/github.com",
         "text": "Github"
       },
       {
         "url": "https://www.stackoverflow.com/",
-        "icon": "https://images.oonnnoo.com/favicons/www.stackoverflow.com.png",
+        "icon": "https://images.oonnnoo.com/favicons/www.stackoverflow.com",
         "text": "Stack"
       },
       {
         "url": "https://inoreader.com/",
-        "icon": "https://images.oonnnoo.com/favicons/inoreader.com.png",
+        "icon": "https://images.oonnnoo.com/favicons/inoreader.com",
         "text": "Inoreader"
       },
       {
         "url": "https://www.youtube.com/",
-        "icon": "https://images.oonnnoo.com/favicons/www.youtube.com.png",
+        "icon": "https://images.oonnnoo.com/favicons/www.youtube.com",
         "text": "youtube"
       },
       {
         "url": "https://translate.google.cn/",
-        "icon": "https://images.oonnnoo.com/favicons/translate.google.cn.png",
+        "icon": "https://images.oonnnoo.com/favicons/translate.google.cn",
         "text": "翻译"
       },
       {
         "url":"https://zh.wikipedia.org/",
-        "icon": "https://images.oonnnoo.com/favicons/zh.wikipedia.org.png",
+        "icon": "https://images.oonnnoo.com/favicons/zh.wikipedia.org",
         "text": "Wikipedia"
       }
     ]

@@ -4,27 +4,27 @@
     "list": [
       {
         "url": "https://staticfile.org",
-        "icon": "https://images.oonnnoo.com/favicons/staticfile.org.png",
+        "icon": "https://images.oonnnoo.com/favicons/staticfile.org",
         "text": "staticfile.org"
       },
       {
         "url": "https://cdn.baomitu.com",
-        "icon": "https://images.oonnnoo.com/favicons/cdn.baomitu.com.png",
+        "icon": "https://images.oonnnoo.com/favicons/cdn.baomitu.com",
         "text": "cdn.baomitu.com"
       },
       {
         "url": "https://www.bootcdn.cn",
-        "icon": "https://images.oonnnoo.com/favicons/www.bootcdn.cn.png",
+        "icon": "https://images.oonnnoo.com/favicons/www.bootcdn.cn",
         "text": "www.bootcdn.cn"
       },
       {
         "url": "https://cdnjs.com",
-        "icon": "https://images.oonnnoo.com/favicons/cdnjs.com.png",
+        "icon": "https://images.oonnnoo.com/favicons/cdnjs.com",
         "text": "cdnjs.com"
       },
       {
         "url": "https://css.loli.net",
-        "icon": "https://images.oonnnoo.com/favicons/css.loli.net.png",
+        "icon": "https://images.oonnnoo.com/favicons/css.loli.net",
         "text": "css.loli.net"
       }
     ]
