@@ -18,8 +18,10 @@ body {
   }
 } */
 
-@media only screen and (min-width: 992px){
-  header, main, footer {
+@media only screen and (min-width: 992px) {
+  header,
+  main,
+  footer {
     padding-left: 300px;
   }
 }
@@ -32,17 +34,11 @@ body {
   margin: 0;
   padding: 0;
 }
-.link-list li {
-  line-height: 1.5;
-  padding: 8px 6px;
-}
 
 .link-icon-list {
   justify-content: left;
 }
-.link-icon-list li {
-  width: 200px;
-}
+
 .link {
   display: flex;
   flex: auto;
@@ -58,6 +54,17 @@ body {
   text-overflow: ellipsis;
   white-space: nowrap;
   text-align: center;
+}
+.card .card-action {
+  text-align: center;
+  padding: 8px 12px;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  overflow: hidden;
+}
+
+.card .card-action a {
+  margin: 0 !important;
 }
 
 .card .card-reveal .card-title {

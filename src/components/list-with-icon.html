@@ -1,7 +1,7 @@
 <h3>@@name</h3>
 <div class="row">
   @@for (var i = 0; i < list.length; i++) {
-  <div class="col s6 m4 xl3">
+  <div class="col s6 m4 l3 xl2">
     <div class="card sticky-action">
       <div class="card-image">
         <img class="activator" src="`+list[i].icon+`" alt="`+list[i].text+`" />
@@ -13,7 +13,9 @@
         <p>`+list[i].desc +`</p>
       </div>
       <div class="card-action">
-        <a href="`+list[i].url+`" target="_black" rel="noopener">`+list[i].text+`</a>
+        <a href="`+list[i].url+`" target="_black" rel="noopener"
+          >`+list[i].text+`</a
+        >
       </div>
     </div>
   </div>
